@@ -55,3 +55,11 @@ let isDeveloper: boolean = true;
 // Non-Primitive Types
 
 // Store collections of data or complex entities and are copied by reference.
+
+// undefined = Not assigned yet
+
+// null = Assigned empty value
+
+// unknown = Type not known yet
+
+// None = Python's null
