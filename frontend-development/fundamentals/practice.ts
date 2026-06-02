@@ -27,3 +27,53 @@ else if (role === "user") {
 else {
     console.log("Access denied. Please log in.")
 }
+
+// 3 — Product List
+
+// Loop through:
+
+  let products =    ["Phone", "Laptop", "Mouse"]
+
+  for (let product of products) {  
+     
+    console.log(product)
+
+   }
+    
+// Cart Discount
+
+// If total > 10000:
+
+// apply 20% discount
+
+// Else:
+
+// no discount
+
+
+let total = 12000
+
+if (total > 10000) {
+    console.log("apply 20% discount");
+    
+} else {
+    console.log(" no discount");
+    
+}
+
+
+// Notification Filter
+
+// Show only unread notifications.
+
+let notifications = [
+    { id: 1, message: "New message from John", read: false },
+    { id: 2, message: "Your order has been shipped", read: true },
+    { id: 3, message: "New comment on your post", read: false }
+]
+
+let unreadNotifications = notifications.filter(notification => !notification.read);
+
+console.log(unreadNotifications);
+
+
