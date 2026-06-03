@@ -1,0 +1,3 @@
+
+
+# functions are reusable blocks of code that perform a specific task. They allow us to break down our code into smaller, more manageable pieces, and they can be called multiple times throughout our program. In Python, we define a function using the `def` keyword, followed by the function name and parentheses. Inside the parentheses, we can specify any parameters that the function will take. The code block that performs the task is indented below the function definition. We can also return a value from a function using the `return` statement. Functions can be called by their name followed by parentheses, and we can pass arguments to the function if it takes parameters. Functions are an essential part of programming and help us write cleaner, more efficient code.

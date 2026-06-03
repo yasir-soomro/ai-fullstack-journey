@@ -61,3 +61,11 @@ function register(data: RegisterInput): User {
     password: data.password,
   };
 }
+
+// 2. login()
+
+type Login = {
+   email : string 
+   password : string 
+}
+
