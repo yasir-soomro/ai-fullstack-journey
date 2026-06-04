@@ -38,3 +38,34 @@ def find_max(*numbers):
 
 max = find_max(3,5,4,6,9,7,8,11,10)
 print(max)
+
+# Student Management System
+
+# Build a simple console-based Student Management System.
+
+
+students = [] 
+
+def show_welcome():
+    print("welcome to student management system")
+
+show_welcome()
+
+def calculate_average(*marks):
+    sum = 0
+    for mark in marks :
+        sum += mark
+ 
+    return sum / len(marks)
+
+total_avg = calculate_average(80 , 99 , 91)
+print(total_avg)
+
+def register_student(name, role="Student"):
+    if not name:
+        raise ValueError ("please Enter Name")
+    r = name , role
+    return r
+
+reg = register_student ("Afzal")
+print (reg)
