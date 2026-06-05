@@ -48,3 +48,65 @@ register (
     age = 23
 
 )
+
+
+# lambda funtion 
+
+def fun (x) :
+    return x * x
+
+res1 = fun (5)
+print(5)
+
+squ = lambda  x : x * x
+
+print(squ(6))
+
+
+people = [
+    ("Ali", 25),
+    ("Ahmed", 18),
+    ("Sara", 30)
+]
+
+people.sort(
+    key=lambda peopl: peopl[1]
+)
+
+print (people)
+
+# Find the student with highest marks.
+
+# students = [
+#     ("Ali", 80),
+#     ("Ahmed", 95),
+#     ("Sara", 88)
+# ]
+
+# students (
+#     key= lambda stu : max(stu)
+# )
+# print(students)
+
+numbers1 = [1,2,3,4,5,6,7,8,9]
+
+odd_numbers = filter(
+    lambda num : num % 2  != 0 ,
+    numbers1
+)
+
+print(list(odd_numbers)) 
+
+def cat () :
+    print("meow")
+
+
+def dog () :
+    print("woof")
+
+def animal_sound (animal) :
+    animal()
+
+xa = animal_sound
+xa(dog)
+xa(cat)

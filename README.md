@@ -1,57 +1,53 @@
 # AI Full Stack Journey
 
-This repository is my learning journey to become a Full Stack + AI Engineer.
+This repository tracks my journey to become a Full Stack + AI Engineer.
 
 ## Goal
-Learn and build real-world applications using modern web, backend, and AI technologies.
 
-## Tech Stack
-
-### Frontend
-- HTML
-- CSS
-- JavaScript
-- TypeScript
-- React
-- Next.js
-- Tailwind CSS
-
-### Backend
-- FastAPI (Python)
-- REST APIs
-- JWT Authentication
-
-### Database
-- PostgreSQL
-
-### AI (coming soon)
-- OpenAI APIs
-- AI Agents
-- RAG Systems
+Learn full stack development, databases, data structures, and AI agent development by practicing consistently and building real projects.
 
 ## Folder Structure
 
-- frontend/ → Frontend practice and projects
-- backend/ → FastAPI backend practice
-- ai-engineering/ → AI learning and experiments
-- system-design/ → Architecture and system notes
-- projects/ → Full real-world applications
-- notes/ → Learning notes and concepts
+```text
+ai-fullstack-journey/
+|-- frontend/
+|   |-- nextjs/
+|   |-- react/
+|   `-- typescript/
+|
+|-- backend/
+|   |-- python/
+|   |-- fastapi/
+|   `-- projects/
+|
+|-- databases/
+|   |-- mongodb/
+|   |-- postgresql/
+|   `-- sql-practice/
+|
+|-- ai-agents/
+|   |-- openai-agents/
+|   |-- litellm/
+|   `-- projects/
+|
+|-- dsa/
+|   |-- arrays/
+|   |-- linked-lists/
+|   `-- trees/
+|
+`-- README.md
+```
 
 ## Current Focus
-Frontend development (HTML, CSS, JavaScript, React, Next.js, Tailwind)
 
-## Projects
-- Finance Dashboard UI
-- Expense Tracker App
-- Admin Dashboard UI
-- AI Chat UI
+- Python fundamentals
+- TypeScript fundamentals
+- Frontend basics
+- Data structures and algorithms
 
 ## Learning Style
-- Build while learning
-- Focus on real projects
-- Understand systems deeply
-- Practice daily coding
 
-## Status
-Active learning phase (building consistently)
+- Build while learning
+- Practice daily coding
+- Keep folders focused and easy to navigate
+- Move real projects into the correct project folders
