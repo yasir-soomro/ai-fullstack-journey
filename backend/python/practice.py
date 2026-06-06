@@ -69,3 +69,23 @@ def register_student(name, role="Student"):
 
 reg = register_student ("Afzal")
 print (reg)
+
+# Print numbers 1 → 10
+
+def numb (n):
+    if n == 0:
+        return 
+    numb(n - 1)
+    print(n)
+
+numb(10)
+
+numbers2 = [5, 2, 8, 1, 9]
+
+large = numbers2[0]
+for nu in numbers2 :
+    if nu > large :
+        large = nu
+
+print(large)
+
